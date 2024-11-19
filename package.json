@@ -1,0 +1,23 @@
+{
+    "name": "release-application",
+    "version": "1.0.0",
+    "description": "A brief description of your project",
+    "main": "index.js",  
+    "scripts": {
+      "release": "semantic-release" 
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lubosy/release-application.git"
+    },
+    "keywords": [],
+    "author": "Lubosy",
+    "license": "ISC",
+    "devDependencies": {
+      "semantic-release": "^19.0.0"
+    },
+    "release": {
+      "branches": ["main"]
+    }
+  }
+  
